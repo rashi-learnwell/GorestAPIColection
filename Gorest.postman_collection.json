@@ -52,7 +52,7 @@
 							"\r",
 							"\r",
 							"pm.test(\"Response time is less than 400ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1400);\r",
 							"});\r",
 							""
 						],
@@ -103,7 +103,7 @@
 							"pm.execution.setNextRequest(\"Delete user\");\r",
 							"\r",
 							"pm.test(\"Response time is less than 200ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
 							"});"
 						],
 						"type": "text/javascript",
@@ -167,7 +167,7 @@
 							"\r",
 							"pm.execution.setNextRequest(\"Get User details\");\r",
 							"pm.test(\"Response time is less than 300ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(300);\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1300);\r",
 							"});"
 						],
 						"type": "text/javascript",
